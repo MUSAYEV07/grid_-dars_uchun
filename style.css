@@ -2,11 +2,13 @@
             padding: 20px;
             background-color: #0f0;
             display: grid;
-            gap: 10px;
-            grid-template-columns:  1fr 1fr 1fr;
+            grid-template:  1fr 1fr / 1fr 1fr 1fr;
+            grid-gap: 20px;
         }
         .item {
             padding: 20px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: rgb(188, 244, 188);
         }
