@@ -1,0 +1,12 @@
+.container{
+            padding: 20px;
+            background-color: #0f0;
+            display: grid;
+            gap: 10px;
+            grid-template-columns:  1fr 1fr 1fr;
+        }
+        .item {
+            padding: 20px;
+            text-align: center;
+            background-color: rgb(188, 244, 188);
+        }
